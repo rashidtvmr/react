@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6">
   <diagram name="Page-1" id="siLuc-gCoSm4YzhNl4ca">
-    <mxGraphModel dx="1344" dy="1564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2957" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,24 @@
         </mxCell>
         <mxCell id="9hNpLHSi1gB_NCzIuGNq-52" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="createRoot calls createContainer" vertex="1">
           <mxGeometry height="60" width="130" x="1149" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jz9qdDujy_4j9fWclrg-7" edge="1" parent="1" source="7jz9qdDujy_4j9fWclrg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7jz9qdDujy_4j9fWclrg-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jz9qdDujy_4j9fWclrg-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Lucida Console&quot;&gt;&amp;nbsp;performConcurrentWorkOnRoot()&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="-990" y="-63" as="geometry" />
+        </mxCell>
+        <mxCell id="7jz9qdDujy_4j9fWclrg-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="Entry point for both initial &lt;br&gt;mount and re renders" vertex="1">
+          <mxGeometry height="50" width="180" x="-723" y="-196" as="geometry" />
+        </mxCell>
+        <mxCell id="7jz9qdDujy_4j9fWclrg-5" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7jz9qdDujy_4j9fWclrg-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-827" y="-63" as="sourcePoint" />
+            <mxPoint x="-807" y="-164.50000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jz9qdDujy_4j9fWclrg-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="415" x="-900" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
